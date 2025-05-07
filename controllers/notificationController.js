@@ -1,5 +1,7 @@
 const Notification = require('../models/notification');
 
+const Project = require('../models/Project');
+const Task = require('../models/Task');
 // Create a new notification
 exports.createNotification = async (req, res) => {
   try {
