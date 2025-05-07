@@ -24,5 +24,5 @@ app.use('/api/notifications', require('./routes/notificationRoutes'));
 app.use('/api/attachment', require('./routes/attachmentRoutes'));
 
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
